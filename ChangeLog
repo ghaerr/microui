@@ -1,2 +1,3 @@
 7 Jun 2019
-	* initial port of microui to Nano-X, apps all run in one window.
+	* bring back resize icon handle, move closer to window corner
+	* initial port of microui to Nano-X, apps all run in one window
