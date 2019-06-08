@@ -1,3 +1,5 @@
+8 Jun 2019
+	* move SDL event loop into render.c, allowing main.c identical between platforms
 7 Jun 2019
 	* bring back resize icon handle, move closer to window corner
 	* initial port of microui to Nano-X, apps all run in one window

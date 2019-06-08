@@ -5,7 +5,6 @@
  */
 #include <stdio.h>
 #include <string.h>
-#include "microui.h"
 #include "renderer.h"
 
 
@@ -233,6 +232,7 @@ static void process_frame(mu_Context *ctx) {
   mu_end(ctx);
 }
 
+
 static int text_width(mu_Font font, const char *text, int len) {
   if (len == -1) { len = strlen(text); }
   return r_get_text_width(text, len);
@@ -244,6 +244,7 @@ static int text_height(mu_Font font) {
 
 
 int main(int argc, char **argv) {
+  /* init renderer */
   r_init();
 
   /* init microui */
@@ -275,3 +276,6 @@ int main(int argc, char **argv) {
 
   return 0;
 }
+
+
+

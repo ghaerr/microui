@@ -13,5 +13,6 @@ void r_set_clip_rect(mu_Rect rect);
 void r_clear(mu_Color color);
 void r_present(void);
 
+void r_handle_input(mu_Context *ctx);
 #endif
 

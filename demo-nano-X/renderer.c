@@ -4,7 +4,6 @@
  * Microui renderer for Nano-X
  */
 #include <stdio.h>
-#include "microui.h"
 #include "renderer.h"
 #include "nano-X.h"
 
